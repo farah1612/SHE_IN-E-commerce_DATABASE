@@ -33,7 +33,7 @@ GetTotalAmountSpentByCustomer 5
 --5--Apply discounts
 UPDATE Products
 SET Price = Price * discount_value
-WHERE product_id = 101
+WHERE product_idÂ =Â 101
 
 --6- Identify Products That Need Restocking (Function)
 CREATE FUNCTION GetProductsInNeedOfRestocking()
@@ -56,7 +56,7 @@ ORDER BY SalesCount DESC
 --8-Find Customers Who Haven't Placed Orders yet
 UPDATE Orders
 SET Cust_ID = 2
-WHERE Order_id = 105
+WHERE Order_idÂ =Â 105
 GO
 SELECT c.Cust_ID, c.FName, c.LName, c.E_mail
 FROM Customer c
