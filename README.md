@@ -38,12 +38,12 @@ The dataset is structured with multiple tables, focusing mainly on orders inform
 ## Installation:
 
 Follow the steps below to set up the SHEIN Database System in your local environment:
-Open SQL Server Management Studio (SSMS).
-Connect to your SQL Server instance.
-Right-click on "Databases" in Object Explorer.
+1-Open SQL Server Management Studio (SSMS).
+2-Connect to your SQL Server instance.
+3-Right-click on "Databases" in Object Explorer.
 Choose "Restore Database..."
-Select "Device" and choose the Shein_data.bak file from the cloned repository.
-Use this code in your cmd to clone our repo
+4-Select "Device" and choose the Shein_data.bak file from the cloned repository.
+But firstly use this code to clone our repo
 ```bash
 # Clone the repository
 git clone https://github.com/farah1612/SHEIN-DATABASE
