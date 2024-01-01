@@ -1,0 +1,21 @@
+Each Customer that is assigned at shein has ID number, name (first, last), gender, e-mail, address (street, 
+city, country) and phone_number, credit_card and password, data_of_birth, age (derived)
+
+Each product that is posted on shein has ID number, name, price,discount, size which is between (s,m,l,xl,xxl), color, in_stock for each color and size.
+
+The products classified to one  category, for each category we need to store (cat_id, cat_name, class name)
+
+Each order that is ordered by customer has ID number, date when order is issued, Shipping Address, status which can be (in progress,shipped,delivered,cancelled),ordered_quantity, estimated_date,shipping_date, shipping_type can be (airline delivery, sea delivery, ground delivery)
+And the estimated_date > shipping_date > order_date
+
+Each payment must be stored and has an ID , payment method(credit card, paypal)
+
+Each customer can review products , we need to store comment, rate(1 to 5), dataPosted
+
+One customer may order one or more orders, One order  must be  ordered by one customer.
+One order must include at least one  product, One product may be part of multiple orders.
+One order must have one payment, One payment must be associated with one order.
+One customer may write multiple reviews on multiple products, One review may be associated with one product by one customer.
+the class contain multiple categories and catogery may contain one or more products and the product must be assigned to a category
+when the customer place the order, the quantity of the order decreases instock automatically
+
